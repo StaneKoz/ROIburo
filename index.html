@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/css/index.css">
+  <title>ROIburo</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container _container">
+      Шапка
+    </div>
+  </header>
+  <main class="main">
+    <div class="page-title__container _container">
+      <h1 class="contacts__header page-title">
+        Контакты
+      </h1>      
+    </div>
+    <section class="contacts">
+      <div class="contacts__container _container">
+        <div class="contacts__map map-contacts">
+          <img class="map" src="img/contacts/map.jpg" alt="Карта">
+          <img class="pointer-icon" src="img/contacts/pin-icon.svg" alt="иконка указателя">
+        </div>
+        <div class="contacts__text-content contacts-text-content">
+          <h2 class="contacts-text-content__title section-title">
+            Контакты
+          </h2>
+          <ul class="contacts-text-content__list contacts-list">
+            <li class="contacts-list__item contacts-list-item">
+              <div class="contacts-list-item__content">
+              <ul class="contacts-list-item__sublist contacts-phones-list">
+                <li class="contacts-phones-list__item">
+                  <h3 class="contacts-list-item__title">
+                    8-900-000-00-00
+                  </h3>
+                  <p class="contacts-list-item__description">
+                    Москва
+                  </p>
+                </li>
+                <li class="contacts-phones-list__item">
+                  <h3 class="contacts-list-item__title">
+                    8-900-000-00-00
+                  </h3>
+                  <p class="contacts-list-item__description">
+                    Россия
+                  </p>
+                </li>
+              </ul>                
+              </div>
+              <div class="contacts-list-item__button">
+                <button class="copy-button contacts__copy-button" data-text="8-900-000-00-00">
+                </button> 
+              </div>
+            </li>
+            <li class="contacts-list__item contacts-list-item">
+              <div class="contacts-list-item__content">
+                <h4 class="contacts-list-item__title">
+                  metall-market@mail.ru
+                </h4>
+                <p class="contacts-list-item__description">
+                  Ежедневно 9:00 — 18:00
+                </p>                
+              </div>
+              <div class="contacts-list-item__button">
+                <button class="copy-button contacts__copy-button" data-text="metall-market@mail.ru"></button>
+              </div>
+            </li>
+            <li class="contacts-list__item contacts-list-item">
+              <div class="contacts-list-item__content">
+                <h4 class="contacts-list-item__title">
+                  Адрес
+                </h4>
+                <p class="contacts-list-item__description">
+                  123456, г. Москва, ул. Ленина 3А, помещ. 2-7
+                </p>                
+              </div>
+            </li>
+            <li class="contacts-list__item contacts-list-item">
+              <div class="contacts-list-item__content">
+                <h4 class="contacts-list-item__title">
+                  Время работы
+                </h4>
+                <p class="contacts-list-item__description">
+                  Ежедневно 9:00 — 18:00
+                </p>                
+              </div>
+            </li>
+          </ul>
+          <div class="contacts-text-content__buttons">
+            <button class="contacts-text-content__button_download">
+              Карта проезда
+            </button>
+            <button class="contacts-text-content__button_call">
+              Заказать звонок
+            </button>
+          </div>
+        </div>
+        <div class="contacts__description-place contacts-description-place">
+          <div class="contacts-description-place__icon">
+            <img src="img/contacts/note-icon.svg" alt="иконка примечания">
+          </div>
+          <p>
+            Вход в офис находится на углу здания со стороны Ленинградского проспекта на пересечении с ул. Балтийская.           
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="gallery__container _container slider-container">
+        <div class="gallery__slider-container slider-container">
+          <ul class="gallery__img-list img-list-gallery slider">
+            <li class="img-list-gallery__item slider-item">
+              <img src="img/gallery/photo-1.jpg" alt="офис">
+            </li>
+            <li class="img-list-gallery__item slider-item">
+              <img src="img/gallery/photo-2.jpg" alt="офис">
+            </li>
+            <li class="img-list-gallery__item slider-item">
+              <img src="img/gallery/photo-3.jpg" alt="офис">
+            </li>
+            <li class="img-list-gallery__item slider-item">
+              Фото 4
+            </li>
+            <li class="img-list-gallery__item slider-item">
+              Фото 5
+            </li>
+            <li class="img-list-gallery__item slider-item">
+              Фото 6
+            </li>
+            <li class="img-list-gallery__item slider-item">
+              Фото 7
+            </li>
+            <li class="img-list-gallery__item slider-item">
+              Фото 8
+            </li>
+          </ul>
+          <div class="gallery__footer">
+            <div class="gallery__progess-bar slider-progress-bar">
+              <div class="gallery__current-progress current-progress">
+              </div>
+            </div>
+            <div class="gallery__buttons">
+              <button class="gallery__left-button slider-prev-btn slider-btn slider-btn-disabled">
+              </button>
+              <button class="gallery__right-button slider-next-btn slider-btn">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team">
+      <div class="team__container _container">
+        <div class="team__content-container">
+          <div class="team__header section-header">
+            <h2 class="team__title section-title">
+              Наша команда
+            </h2>
+            <div class="team__description">
+              Металл-Маркет — это команда профессионалов, влюбленных в свое дело.
+              Уверены, что развитие компании начинается с развития ее сотрудников.
+            </div>
+          </div>
+          <div class="team__slider-container slider-container">
+            <ul class="team__photo-list photo-list-team slider">
+              <li class="photo-list-team__item photo-item slider-item">
+                <div class="photo-item__image">
+                  <img src="img/team/photo-1.jpg" alt="Человек">
+                </div>
+                <div class="photo-item__content">
+                  <h3 class="photo-item__fullname">
+                    Ворончихин<br>
+                    Сергей Вячеславович
+                  </h3>
+                  <div class="photo-item__position">
+                    Директор
+                  </div>
+                </div>
+              </li>
+              <li class="photo-list-team__item photo-item slider-item">
+                <div class="photo-item__image">
+                  <img src="img/team/photo-2.jpg" alt="Человек">
+                </div>
+                <div class="photo-item__content">
+                  <h3 class="photo-item__fullname">
+                    Ситникова<br>
+                    Александра Константиновна
+                  </h3>
+                  <div class="photo-item__position">
+                    Офис-менеджер
+                  </div>
+                </div>
+              </li>
+              <li class="photo-list-team__item photo-item slider-item">
+                <div class="photo-item__image">
+                  <img src="img/team/photo-3.jpg" alt="Человек">
+                </div>
+                <div class="photo-item__content">
+                  <h3 class="photo-item__fullname">
+                    Лазарева<br>
+                    Валерия Максимовна
+                  </h3>
+                  <div class="photo-item__position">
+                    Бухгалтер
+                  </div>
+                </div>
+              </li>
+              <li class="photo-list-team__item photo-item slider-item">
+                <div class="photo-item__image">
+                  <img src="img/team/photo-4.jpg" alt="Человек">
+                </div>
+                <div class="photo-item__content">
+                  <h3 class="photo-item__fullname">
+                    Наумов<br>
+                    Илья Семёнович
+                  </h3>
+                  <div class="photo-item__position">
+                    Руководитель отдела продаж
+                  </div>
+                </div>
+              </li>
+              <li class="photo-list-team__item photo-item slider-item">
+                Фото 5
+              </li>
+              <li class="photo-list-team__item photo-item slider-item">
+                Фото 6
+              </li>
+              <li class="photo-list-team__item photo-item slider-item">
+                Фото 7
+              </li>
+              <li class="photo-list-team__item photo-item slider-item">
+                Фото 8
+              </li>
+            </ul>
+            <div class="team__progess-bar slider-progress-bar">
+              <div class="team__current-progress current-progress">
+              </div>
+            </div>
+            <div class="team__buttons">
+              <button class="team__left-button slider-prev-btn slider-btn slider-btn-disabled">
+              </button>
+              <button class="team__right-button slider-next-btn slider-btn">
+              </button>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </section>
+    <section class="requisites">
+      <div class="requisites__container _container">
+        <div class="requisites__header section-header">
+          <h2 class="requisites__title section-title">
+            Реквизиты
+          </h2>
+          <p class="requisites__desctiption">
+            Металл-Маркет — компания, которая dolor sit amet consectetur. Ac sem nisi nullam mi odio. Justo eu egestas arcu rhoncus et. Eleifend morbi sit proin sed proin. Mattis purus sit malesuada in praesent ac nisi convallis. Lorem ipsum dolor sit amet. 
+          </p>   
+        </div>
+        <div class="requisites__download-file download-file">
+          <button class="download-file__button">
+            <img src="img/requisites/download-icon.svg" alt="иконка загрузки">
+          </button>
+          <div class="download-file__text-container">
+            <div class="download-file__title">
+              Скачать реквизиты
+            </div>
+            <div class="download-file__description">
+              Скачать pdf файл
+            </div>
+          </div>
+        </div>
+        <div class="requisites__table table-requisites">
+          <ul class="table-requisites__list requisites-list">
+            <li class="list-requisites__item requisites-item">
+              <h3 class="requisites-item__title">
+                Полное наименование
+              </h3>
+              <div class="requisites-item__value">
+                <p>
+                  Металл-Маркет
+                </p>
+                <button class="copy-button" data-text="Металл-Маркет">
+                  <img src="img/requisites/copy-icon.png" alt="иконка копирования">
+                </button>
+              </div>
+            </li>
+            <li class="list-requisites__item requisites-item">
+              <h3 class="requisites-item__title">
+                Юридический адрес
+              </h3>
+              <div class="requisites-item__value">
+                <p>
+                  123456, Россия, Москва, ул. Ленина, 145а, 801
+                </p>
+                <button class="copy-button" data-text="123456, Россия, Москва, ул. Ленина, 145а, 801">
+                  <img src="img/requisites/copy-icon.png" alt="иконка копирования">
+                </button>
+              </div>
+            </li>
+            <li class="list-requisites__item requisites-item">
+              <h3 class="requisites-item__title">
+                ИНН
+              </h3>
+              <div class="requisites-item__value">
+                <p>
+                  1234567890
+                </p>
+                <button class="copy-button" data-text="1234567890">
+                  <img src="img/requisites/copy-icon.png" alt="иконка копирования">
+                </button>
+              </div>
+            </li>
+            <li class="list-requisites__item requisites-item">
+              <h3 class="requisites-item__title">
+                КПП
+              </h3>
+              <div class="requisites-item__value">
+                <p>
+                  123456789
+                </p>
+                <button class="copy-button" data-text="1234567890">
+                  <img src="img/requisites/copy-icon.png" alt="иконка копирования">
+                </button>
+              </div>
+            </li>
+            <li class="list-requisites__item requisites-item">
+              <h3 class="requisites-item__title">
+                ОГРН
+              </h3>
+              <div class="requisites-item__value">
+                <p>
+                  1234567890987
+                </p>
+                <button class="copy-button" data-text="1234567890987">
+                  <img src="img/requisites/copy-icon.png" alt="иконка копирования">
+                </button>
+              </div>
+            </li>
+            <li class="list-requisites__item requisites-item">
+              <h3 class="requisites-item__title">
+                Расчетный счет
+              </h3>
+              <div class="requisites-item__value">
+                <p>
+                  12345678909876543210
+                </p>
+                <button class="copy-button" data-text="12345678909876543210">
+                  <img src="img/requisites/copy-icon.png" alt="иконка копирования">
+                </button>
+              </div>
+            </li>
+            <li class="list-requisites__item requisites-item">
+              <h3 class="requisites-item__title">
+                Корреспондентский счет
+              </h3>
+              <div class="requisites-item__value">
+                <p>
+                  12345678909876543210
+                </p>
+                <button class="copy-button" data-text="12345678909876543210">
+                  <img src="img/requisites/copy-icon.png" alt="иконка копирования">
+                </button>
+              </div>
+            </li>
+            <li class="list-requisites__item requisites-item">
+              <h3 class="requisites-item__title">
+                БИК
+              </h3>
+              <div class="requisites-item__value">
+                <p>
+                  123456789
+                </p>
+                <button class="copy-button" data-text="123456789">
+                  <img src="img/requisites/copy-icon.png" alt="иконка копирования">
+                </button>
+              </div>
+            </li>
+            <li class="list-requisites__item requisites-item">
+              <h3 class="requisites-item__title">
+                Банк
+              </h3>
+              <div class="requisites-item__value">
+                <p>
+                  ПАО «Сбербанк»
+                </p>
+                <button class="copy-button" data-text="ПАО «Сбербанк»">
+                  <img src="img/requisites/copy-icon.png" alt="иконка копирования">
+                </button>
+              </div>
+            </li>
+            <li class="list-requisites__item requisites-item">
+              <h3 class="requisites-item__title">
+                Директор
+              </h3>
+              <div class="requisites-item__value">
+                <p>
+                  Лебедев Кирилл Александрович
+                </p>
+                <button class="copy-button" data-text="Лебедев Кирилл Александрович">
+                  <img src="img/requisites/copy-icon.png" alt="иконка копирования">
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    Подвал
+  </footer>
+  <script src="scripts/slider.js"></script>
+  <script src="scripts/clipboard.js"></script>
+</body>
+</html>
